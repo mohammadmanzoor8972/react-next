@@ -1,0 +1,17 @@
+.container {
+    margin:20px auto;
+    padding: 20px;
+    border: 2px solid blue;
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.container h3{
+    text-transform: uppercase;
+}
+.container hr{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

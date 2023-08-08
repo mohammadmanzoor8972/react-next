@@ -85,15 +85,6 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
 
 a {
   color: inherit;
@@ -104,4 +95,24 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+.container{
+  width: 99%;
+  height: 1080px;
+  border: 2px solid red;
+  padding: 30px;
+  overflow: auto;
+  margin-left: 5px;
+}
+
+.dark {
+  color : white;
+  background-color: black;
+}
+
+.light {
+  color : black;
+  background-color: white;
 }
